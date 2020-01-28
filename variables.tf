@@ -1,5 +1,9 @@
-variable "resource_group_name" {
-  description = "Default resource group name that the network will be created in."
+variable "vnet_resource_group_name_1" {
+  description = "Resource group name for Vnet 1."
+}
+
+variable "vnet_resource_group_name_2" {
+  description = "Resource group name for Vnet 2."
 }
 
 variable "vnet_name_1" {
